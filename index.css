@@ -1,0 +1,265 @@
+body {
+    display: flex;
+    font-family: 'Spartan', sans-serif;
+    justify-items: center;
+    align-content: center;
+    align-items:center ;
+}
+.top {
+    background-image: url(https://svgshare.com/i/Wnn.svg);
+    background-size: initial;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+   
+   
+}
+.bottom {
+    background-image: url(https://svgshare.com/i/WpD.svg);
+    background-size: initial;
+    background-position: right bottom ;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+   
+   
+}
+.container {
+    padding: 5% 15% 0% 15%;
+    display: flex; 
+    width: 100%;
+    flex-direction: column ;
+    z-index: 1;
+    position: relative;
+
+}
+.back svg:last-child {
+    position: absolute;
+
+}
+.con1 {
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.container .d1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    font-size: smaller;
+    font-weight: 500;
+    color:  hsl(303, 10%, 53%);
+    
+}
+.d1 span {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: hsl(300, 43%, 22%);
+}
+.container .d2 {
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.d2 .rate {
+    margin-left: 100px;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 15px;
+    padding: 15px 40px 15px 10px; 
+    font-weight: 700;
+    color:  hsl(300, 43%, 22%);
+    font-size: small;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+  
+}
+.d2 .rate div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.d2 div svg {
+    margin-right: 5px;
+}
+
+
+.d2 .rate:first-of-type {
+    margin-left: 40px;
+}
+.d2 .rate:nth-child(2) {
+    margin-left: 80px;
+}
+.d2 .rate:last-of-type {
+    margin-left: 120px;
+}
+.con2 {
+    display: flex;
+    grid-gap: 30px;
+    padding: 20px ;
+}
+.con2 .d3, .d4, .d5 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    font-size: small;
+    line-height: 1.6;
+    height: fit-content;
+
+}
+
+.pic1 {
+    background-image: url(https://i.ibb.co/8j9c8q9/image-colton.jpg);
+  
+}
+.pic2 {
+    background-image: url(https://i.ibb.co/HnwFtnz/image-irene.jpg);
+  
+}
+.pic3 {
+    background-image: url(https://i.ibb.co/WDgg6JC/image-anne.jpg);
+  
+}
+.pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.info  span {
+    font-size: samll;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.info .name {
+    font-weight: 700;
+    font-size: small;
+    padding-top: 1px;
+}
+.con2 .d3 {
+    margin-top: -20px;
+}
+.con2 .d5 {
+    margin-top: 20px;
+}
+@media (max-width: 900px) {
+    .top {
+        width: 100%;
+        background-image: url(https://svgshare.com/i/WoV.svg);
+        background-size: initial;
+        position: absolute;
+        background-position-y: top;
+        
+        margin-top: -910px;
+
+    }
+    .bottom {
+        background-image: url(https://svgshare.com/i/Wnc.svg);
+        margin-bottom: -910px;
+        
+    }
+    .container {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 0;
+        
+        
+        
+    }
+    .con1 {
+        display: flex;
+        flex-direction: column;
+       
+        padding: 0;
+    }
+    .d1 {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .d2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+    
+    
+
+    }
+    .d2 .rate{
+        background-color: hsl(300, 24%, 96%);
+        margin-bottom: 15px;
+        padding: 20px 40px; 
+        font-weight: 700;
+        color:  hsl(300, 43%, 22%);
+        font-size: small;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 250px;
+        margin-bottom: 20px;
+
+    }
+    .d2 .rate div {
+        margin-bottom: 10px;
+    }
+    .d2 .rate svg:last-of-type {
+        margin-right: 0px;
+    }
+    .d2 div svg:last-of-type {
+        margin-right: 0px;
+    }
+    .d2 .rate:first-of-type {
+        margin-left: 0px;
+    }
+    .d2 .rate:nth-child(2) {
+        margin-left: 0px;
+    }
+    .d2 .rate:last-of-type {
+        margin-left: 0px;
+    }
+
+    .con2 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        
+    }
+    
+    .d3 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .d5 {
+        margin-bottom: 0px;
+    }
+}
