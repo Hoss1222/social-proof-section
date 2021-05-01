@@ -120,7 +120,7 @@ body {
     color: hsl(0, 0%, 100%);
     font-size: small;
     line-height: 1.6;
-    height: fit-content;
+    height: 100%;
 
 }
 
